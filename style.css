@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.calendar_wrapper { 
+    margin-left: 100px auto;
+}
+.calendar_wrapper .calendar_title{
+    display:  flex; 
+    margin-top: 1.3em;
+    flex-wrap: nowrap;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar_wrapper .next_prev_nav{
+    display:  flex; 
+    margin-top: 1.3em;
+    flex-wrap: nowrap;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+.calendar_wrapper .next_prev_nav{
+    display:  flex; 
+    margin-top: 1.3em;
+    flex-wrap: nowrap;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+.calendar_wrapper .calendar_title hr{ 
+    width: 70%;
+    color: #222222;
+    background: red;
+    height: 0.1em;
+}
+.cal_table {
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.cal_table .th_row{ 
+    height: 50px;
+    justify-content: space-evenly;
+    background: #222222;
+} 
+.row_body .data{
+    border: 1px solid red;
+    height: 10rem;
+}
+td {
+    background-color: #222222;
+    color: white; 
+}
+.data {
+    background-color: #000;
+    color: #fff;
+}
